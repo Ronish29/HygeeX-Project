@@ -1,0 +1,7 @@
+.faq-header {
+    background: linear-gradient(180deg, #06286E 0%, #164EC0 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+

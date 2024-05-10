@@ -1,0 +1,45 @@
+.mainHeader {
+    background: linear-gradient(180deg, #06286E 0%, #164EC0 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+}
+
+
+
+.card {
+    background: linear-gradient(222.94deg, #051A91 -4.31%, #061C93 14.41%, #7da0c8 81.88%, #1F80EB 103.81%);
+    perspective: 1000px; /* Add perspective for 3D effect */
+    transform-style: preserve-3d; /* Apply 3D transformation to child elements */
+  }
+
+  .card-content {
+    transform-style: preserve-3d; /* Apply 3D transformation to child elements */
+  }
+
+  .flipped-card .card-content {
+    transform: rotateY(180deg); /* Rotate content when card is flipped */
+  }
+
+  .flipped-card {
+    background: linear-gradient(60deg, #2D87B6, #1E5C8A, #1B325C);
+    transform: rotateY(180deg); /* Rotate card when flipped */
+  }
+  .rotate-180 {
+    transform: rotate(180deg); /* Rotate the image by 180 degrees */
+  }
+
+.published-round {
+    box-shadow: 0px 0px 31px 0px #08389966;
+    background: white;
+    width: 80.6px;
+    height: 80.6px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.flashcard-text {
+    background: linear-gradient(180deg, #06286E 0%, #164EC0 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+}
