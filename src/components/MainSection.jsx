@@ -5,7 +5,7 @@ import Replay from '../Images/replay.png'
 import Previous from '../Images/back.png'
 import Next from '../Images/next.png'
 import FullScreen from '../Images/full_screen.png'
-import HygeeX from '../Images/hygeex-Logo.png'
+import HygeeX from '../Images/hygee.png'
 import CreateFlashCard from '../Images/create.png'
 import './MainSection.css'
 
