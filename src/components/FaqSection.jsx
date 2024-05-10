@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ArrowDown from '../Images/arrow-down.png'
 import ArrowUp from '../Images/arrow-up.png'
+import './FaqSection.css'
 const FaqSection = () => {
     const [expandedIndexes, setExpandedIndexes] = useState([])
 
