@@ -4,7 +4,7 @@ import { useMediaQuery } from 'react-responsive';
 import './Navbar.css';
 
 const MyNavbar = () => {
-  const isLargeScreen = useMediaQuery({ query: '(min-width: 992px)' });
+  const isLargeScreen = useMediaQuery({ query: '(min-width: 768px)' });
 
   return (
     <Navbar rounded >
